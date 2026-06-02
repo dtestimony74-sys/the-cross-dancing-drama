@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/PNG" href="icon.PNG" >
+  <title>THE CROSS DANCING DRAMA MINISTRY </title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: blue;
+      margin: 0;
+      padding: 15px;
+    }
+
+    .container {
+      max-width: 600px;
+      background: goldenrod;
+      margin: auto;
+      padding: 10px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      text-align: center;
+      color: #8b0000;
+      margin-bottom: 5px;
+    }
+
+    p {
+      text-align: center;
+      color: #555;
+      margin-bottom: 15px;
+    }
+
+    label {
+      display: block;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+
+    input,
+    select,
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      box-sizing: border-box;
+    }
+
+    textarea {
+      resize: vertical;
+    }
+
+    button {
+      width: 100%;
+      background: #8b0000;
+      color: white;
+      border: none;
+      padding: 14px;
+      margin-top: 20px;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor:pointer ;
+    }
+
+    button:hover {
+      background: #a30000;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>THE CROSS DANCING DRAMA MINISTRY</h1>
+    <p>Membership Registration Form</p>
+
+    <form action="https://formsubmit.co/toluranti74@gmail.com" method="POST" />
+      <label for="fullname">Full Name</label>
+      <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+
+      <label for="grade">School Grade</label>
+      <input type="text" id="grade" name="grade" placeholder="secondary school, olevel, university" required>
+
+      <label for="dob">Date of Birth</label>
+<input
+    type="date"
+    id="dob"
+    name="dob"
+    min="1950-01-01"
+    max="2026-12-31"
+    required>
+
+      <label for="gender">Gender</label>
+      <select id="gender" name="gender" required>
+        <option value="">Select Gender</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+      </select>
+
+      <label for="department">Preferred Department</label>
+      <select id="department" name="department" required>
+        <option value="">Select Unit</option>
+        <option value="custom">costom management unit</option>
+        <option value="backup">backup musicains unit</option>
+        <option value="acting">actor/actress Unit</option>
+        <option value="instrumentalist">instrumentalist Unit</option>
+        <option value="media">media Unit</option>
+      </select>
+
+      <label for="experience">Previous Experience</label>
+      <textarea id="experience" name="experience" rows="2" placeholder="Tell us about your experience..."></textarea>
+
+     
+
+      <button type="submit">Submit Registration</button>
+    </form>
+  </div>
+
+</body>
+</html>
